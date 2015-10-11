@@ -1,0 +1,76 @@
+AFS 225
+ANTH 102
+ANTH 318
+ANTH 325
+ANTH 420
+AAH 116
+AAH 117
+AAH 319
+BIO 232
+BIO 261
+BIO 412
+ECON 209
+ECON 307
+EDUC 436
+ENG 215
+ENG 230
+ENG 263
+ENG 344
+ENG 359
+ENG 367
+ENVS 103
+ENVS 187
+ENVS 253
+GNS 103
+GNS 272
+GNS 280
+GNS 290
+GNS 301
+GNS 315
+GNS 334
+GS 102
+GS 238
+GS 250
+GS 333
+GS 317
+GS 351
+HIST 207
+HIST 211
+HIST 229
+HIST 264
+HIST 280
+HIST 340
+HIST 352
+Modern Languages and Literatures	232
+Modern Languages and Literatures	234
+Modern Languages and Literatures	227
+Modern Languages and Literatures	428
+Modern Languages and Literatures	202
+Modern Languages and Literatures	211
+Modern Languages and Literatures	213
+Modern Languages and Literatures	221
+Modern Languages and Literatures	439
+MUS 337
+PCA 106
+PCA 221
+PCA 255
+PCA 315
+PCA 322
+PCA 327
+PHIL 103
+PHIL 290
+PHIL 331
+PHIL 334
+PSYC 253
+PSYC 317
+PSYC 325
+PSYC 401
+PSYC 402
+REL 273
+SOC 112
+SOC 221
+SOC 224
+SOC 228
+SOC 238
+SOC 272
+SOC 212

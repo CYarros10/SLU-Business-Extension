@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Business Reference</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="minimalism.css">
+</head>
+<body>
+ 
+<div id="header">
+  <!--<img src= "http://students.stlawu.edu/thelmo/wp-content/uploads/2011/03/Logo-Shield-Color.png" width = "100" height = "80"> -->
+  <h1>Business Elective Reference</h1>
+</div>
+
+<div style="clear: both;">&nbsp;</div>
+<div id="menu">
+  <ul>
+    <li><a href="http://myslu.stlawu.edu/~cdyarr12/index.html">Search</a></li>
+    <li><a href="http://myslu.stlawu.edu/~cdyarr12/student_SR.php">Social Responsibility</a></li>
+    <li><a href="http://myslu.stlawu.edu/~cdyarr12/student_SC.php">Social Context</a></li>
+    <li><a href="http://myslu.stlawu.edu/~cdyarr12/student_AT.php">Analytical Thinking</a></li>
+    <li><a href="http://myslu.stlawu.edu/~cdyarr12/student_GC.php">Global Citizenship</a></li>
+  </ul>
+</div>
+
+<div id="content">
+  
+    <div id="rowOne">
+    
+        
+        <div id = "intro">
+            <h2>Welcome SLU Business Students.</h2>
+            <p>To complete the business major, you must take classes in four areas of learning.
+                Explore class lists that make up these areas by navigating the links above! Discover if your class fulfills a category requirement
+                by searching to the right!
+            </p>
+        </div> <!-- intro -->
+    
+
+        <div id = "userInput">
+                <form action="student_searchResults.php" method="GET"> 
+            
+                <select id = "subject" name = "dropdown">
+                    <option value = "">All Subjects</option>
+                    <option value ="ACC">ACC</option>
+                    <option value ="AFS">AFS</option>
+                    <option value ="ANTH">ANTH</option>
+                    <option value ="ARAB">ARAB</option>
+                    <option value ="AAH">AAH</option>
+                    <option value ="ASIA">ASIA</option>
+                    <option value ="BIOCH">BIOCH</option>
+                    <option value ="BIOL">BIOL</option>
+                    <option value ="CNS">CNS</option>
+                    <option value ="CLAS">CLAS</option>
+                    <option value ="CHEM">CHEM</option>
+                    <option value ="CHIN">CHIN</option>
+                    <option value ="CBL">CBL</option>
+                    <option value ="CS">CS</option>
+                    <option value ="ECON">ECON</option>
+                    <option value ="EDAD">EDAD</option>
+                    <option value ="EDPS">EDPS</option>
+                    <option value ="EDUC">EDUC</option>
+                    <option value ="English">ENG</option>
+                    <option value ="ENVS">ENVS</option>
+                    <option value ="SPAN">SPAN</option>
+                    <option value ="EUR">EUR</option>
+                    <option value ="FILM">FILM</option>
+                    <option value ="FR">FR</option>
+                    <option value = "GNDR">GNDR</option>
+                    <option value = "GEOL">GEOL</option>
+                    <option value = "GER">GER</option>
+                    <option value = "GS">GS</option>
+                    <option value = "GOVT">GOVT</option>
+                    <option value = "HEBR">HEBR</option>
+                    <option value = "HIST">HIST</option>
+                    <option value = "ITAL">ITAL</option>
+                    <option value = "JAPN">JAPN</option>
+                    <option value = "LANG">LANG</option>
+                    <option value = "LITRN">LTRN</option>
+                    <option value = "MATH">MATH</option>
+                    <option value = "MUS">MUS</option>
+                    <option value = "NRSCI">NRSCI</option>
+                    <option value = "ND">ND</option>
+                    <option value = "ODST">ODST</option>
+                    <option value = "PEAC">PEAC</option>
+                    <option value = "PCA">PCA</option>
+                    <option value = "PHIL">PHIL</option>
+                    <option value = "PHYS">PHYS</option>
+                    <option value = "PORT">PORT</option>
+                    <option value = "PSYC">PSYC</option>
+                    <option value = "REL">REL</option>
+                    <option value = "RUSS">RUSS</option>
+                    <option value = "SOC">SOC</option>
+                    <option value = "SSES">SSES</option>
+                    <option value = "STAT">STAT</option>
+                    <option value = "SWAH">SWAH</option>            
+                </select>
+        
+                <input type = "number" id = "classNumber" placeholder ="Enter Course Number" name = "classNumber">
+                <input class = "button" type = "submit" name = "submit" value= "SEARCH">
+                    
+                </form>
+                  
+        </div> <!-- input -->
+    </div> <!-- rowOne -->
+    
+    <div id = "results">
+            <?php
+                include 'script_searchResult.php';
+            ?>
+    </div> <!-- rowTwo -->
+    
+  <div style="clear: both;">&nbsp;</div>
+
+</div> <!-- content -->
+
+<div id="footer">
+  <p>Created by CY</p>
+</div> <!-- footer -->
+
+</body>
+</html>
